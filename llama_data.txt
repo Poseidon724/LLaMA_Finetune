@@ -1,0 +1,113 @@
+Input: The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.
+Output: SUB/ELABORATION('The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.','Work deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.')
+
+Input: A large number of brick kilns around Bangalore and Hosur employ bonded and child labour, under the pretext of offering high wages.
+Output: SUB/ELABORATION('This is under the pretext of offering high wages.','A large number of brick kilns around Bangalore and Hosur employ bonded and child labour.')
+
+Input: Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers, self-employed workers or daily-wage workers).
+Output: SUB/ELABORATION('Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers, self-employed workers or daily-wage workers))
+
+Input: In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers (Regulation of Employment and Welfare) Act 1969.
+Output: SUB/ELABORATION('This was in Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers(Regulation of Employment and Welfare) Act 1969.','The mathadis were set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers(Regulation of Employment and Welfare) Act 1969.')
+
+Input: The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.
+Output: SUB/ELABORATION('The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.','The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.')
+
+Input: The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.
+Output: SUB/ELABORATION('The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.','The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.')
+
+Input: The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.
+Output: SUB/ELABORATION('The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.)
+
+Input: If the punishment is harsh, albeit a lesser punishment may be imposed, but such an order cannot be passed on an irrational or extraneous factor and certainly not on a compassionate ground.
+Output: CO/CONTRAST('The punishment is harsh.', SUB/ELABORATION('This was albeit a lesser punishment may be imposed.',', Such an order cannot be passed on an irrational or extraneous factor and certainly not on a compassionate ground.'))
+
+Input: In Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal (2004) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.
+Output: SUB/ELABORATION('This was in Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal (2004) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.','The misconduct proved.')
+
+Input: Huge pension costs over long time raises concerns on fiscal sustainability of the economy and given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.
+Output: CO/LIST('Huge pension costs over long time raises concerns on fiscal sustainability of the economy.','Huge pension costs over long time given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.')
+
+Input: The fund is managed by the Employees'State Insurance Corporation ( ESIC ) according to rules and regulations stipulated in the ESI Act 1948.
+Output: SUB/ELABORATION('The fund is managed by the Employees'State Insurance Corporation.', SUB/ELABORATION('This was according to rules and regulations.','Rules and regulations were stipulated in the ESI Act 1948.'))
+
+Input: Employees'State Insurance Corporation ( ESIC ), established by ESI Act, is an autonomous corporation under Ministry of Labour and Employment, Government of India.
+Output: SUB/ELABORATION('ESIC was an autonomous corporation under Ministry of Labour and Employment, Government of India.', SUB/ELABORATION('ESIC was established by ESI Act.','ESIC was established by ESI Act.'))
+
+Input: The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.
+Output: CO/CONTRAST('The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.','The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.')
+
+Input: The employees registered under the scheme are entitled to medical treatment for themselves and their dependents, unemployment cash benefit in certain contingencies and maternity benefit in case of women employees.
+Output: SUB/ELABORATION('This was for themselves and their dependents.', SUB/ELABORATION('This was in certain contingencies and maternity benefit in case of women employees.','The employees registered under the scheme are entitled to medical treatment.'))
+
+Input: In case of employment-related disablement or death, there is provision for a disablement benefit and a family pension respectively.
+Output: SUB/ELABORATION('This is in case of employment-related disablement or death.', CO/LIST('There is provision for a disablement benefit.','There is provision for a family pension respectively.'))
+
+Input: If the number of employee is below 10, the employer must still pay gratuities.
+Output: SUB/ELABORATION('The number of employee is below 10.','The employer must still pay gratuities.')
+
+Input: Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.
+Output: SUB/ELABORATION('This was on termination of employment.', SUB/ELABORATION('This was after he has rendered continuous service for not less than five years in a single organisation.','Giving shall be payable to an employee.'))
+
+Input: If over 50 per cent of a company's workers take concerted casual leave, it will be treated as a strike.
+Output: SUB/ELABORATION('Over 50 per cent of a company's workers take concerted casual leave.','It will be treated as a strike.')
+
+Input: The Inter-state Migrant Workmen Act's purpose was to protect workers whose services are requisitioned outside their native states in India.
+Output: SUB/ELABORATION('The Inter-state Migrant Workmen Act's purpose was to protect workers.','Workers's services are requisitioned outside their native states in India.')
+
+Input: A non-resident can open an NPS account, but the account will be closed if the citizenship status of the NRI has been changed.
+Output: CO/CONTRAST('A non-resident can open an NPS account.', SUB/ELABORATION('The account will be closed if the citizenship status of the NRI has been changed.','The citizenship status of the NRI has been changed.'))
+
+Input: National Pension System, like PPF and EPF is an EEE ( Exempt-Exempt-Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free.
+Output: SUB/ELABORATION('National Pension System is like PPF and EPF.', SUB/ELABORATION('This is in India.', SUB/ELABORATION('This is at maturity.','The entire corpus escapes tax at maturity.' ), 'The entire pension withdrawal amount is tax-free.'))
+
+Input: NPS started with the decision of the Government of India to stop defined benefit pensions for all its employees who joined after 1 April 2004.
+Output: SUB/ELABORATION('NPS started with the decision of the Government of India.', SUB/PURPOSE('This was to stop defined benefit pensions for all its employees.','All its employees joined after 1 April 2004.'))
+
+Input: While the scheme was initially designed for government employees only, NPS was opened up for all citizens of India between the age of 18 and 65 in 2009, for OCI card holders and PIO's in October 2019.
+Output: SUB/ELABORATION('This was for OCI card holders and PIO's in October 2019.', SUB/ELABORATION('This was between the age of 18 and 65.', SUB/ELABORATION('This was in 2009.','The scheme was initially designed for government employees only.')))
+
+Input: As per the revised norms, any Indian Citizen, resident or non-resident and Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue or defer their NPS Account up to the age of 75 years.
+Output: SUB/ELABORATION('This is as per the revised norms.', SUB/ELABORATION('This is as per the revised norms.', SUB/ELABORATION('This is as per the revised norms.', SUB/ELABORATION('This is between the age of 65-70 years.','Any Indian Citizen, resident or non-resident and Overseas Citizen of India, between the age of 65-70 years can join NPS and continue or defer their NPS Account up to the age of 75 years.'))))
+
+Input: NPS is considered one of the best tax saving instruments, after 40% of the corpus was made tax-free at the time of maturity and it is ranked just below equity-linked savings scheme.
+Output: CO/LIST(SUB/ELABORATION('This was after 40% of the corpus was made tax-free at the time of maturity.','NPS is considered one of the best tax saving instruments.' )SUB/ELABORATION('This was after it is ranked just below equity-linked savings scheme.','It is ranked just below equity-linked savings scheme.'))
+
+Input: One can withdraw the complete amount if the pension collected is less than INR 5,00,000.
+Output: SUB/ELABORATION('One can withdraw the complete amount.','The pension was collected.')
+
+Input: If work is not provided within 15 days of applying, applicants are entitled to an unemployment allowance.
+Output: SUB/ELABORATION('Work is not provided within 15 days of applying.','Officials are entitled to an unemployment allowance.')
+
+Input: If the government fails to provide employment, it has to provide certain unemployment allowances to those people.
+Output: SUB/ELABORATION('The government fails to provide employment.','It has to provide certain unemployment allowances to those people.')
+
+Input: Unemployment allowance must be paid if the work is not provided within the statutory limit of 15 days.
+Output: SUB/ELABORATION('Unemployment allowance must be paid.','The work is not provided within the statutory limit of 15 days.')
+
+Input: To ensure public accountability through public vigilance, the NREGA designates ‘ social audits'as key to its implementation.
+Output: SUB/PURPOSE('This is to ensure public accountability through public vigilance.','The NREGA designates ‘ social audits'as key to its implementation.')
+
+Input: After the economic liberalization of 1991, the pay in Private sector was gradually seen as better than that in Public sector.
+Output: SUB/ELABORATION('This was after the economic liberalization of 1991.','The pay in Private sector was gradually seen as better than that in Public sector.')
+
+Input: Tamil Nadu has not implemented the NPS for its government employees and is not not in agreement with PFRDA.
+Output: CO/LIST('Tamil Nadu has not implemented the NPS for its government employees.','Tamil Nadu is not in agreement with PFRDA.')
+
+Input: In cases of such willful and unauthorised absence from work, the leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non-on the principle of no work no pay.
+Output: SUB/ELABORATION('This is in cases of such willful and unauthorised absence from work.', SUB/ELABORATION('This is in cases of such willful and unauthorised absence from work.','The leave sanctioning authority may decide and order that the days on which the work is not performed be treated as dies non-on the principle of no work no pay.'))
+
+Input: The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.
+Output: SUB/ELABORATION('The term 'industry' infuses a contractual relationship between the employer and the employee for sale of products and services which are produced through their cooperative endeavor.','Products and services are produced through their cooperative endeavor.')
+
+Input: Where the contract of employment is not fulfilled or work is not done as prescribed, the principle of 'no work no pay' is brought into play.
+Output: SUB/ELABORATION('The contract of employment is not fulfilled or work is not done as prescribed, the principle of 'no work no pay' is brought into play.','The contract of employment is not fulfilled or work is not done as prescribed.')
+
+Input: In the Labour Law 2021, the government has approved an overtime payment to the employees working more than 15 minutes of scheduled shift.
+Output: SUB/ELABORATION('This was to the employees working more than 15 minutes of scheduled shift.','The government has approved an overtime payment in the Labour Law 2021.')
+
+Input: Section 6 requires that people are paid in money rather than in kind.
+Output: SUB/ELABORATION(', Section 6 requires that people are paid in money rather than in kind.','People are paid in money rather than in kind.')
+
+Input: New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.
+Output: SUB/ELABORATION('New Pension Scheme was implemented with the decision of the Union Government to replace the Old Pension Scheme which had defined-benefit pensions for all its employees.','The Old Pension Scheme had defined-benefit pensions for all its employees.')

@@ -1,0 +1,99 @@
+[
+    {
+      "input": "The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The term 'child labour', suggests ILO, is best defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.\",\"Work deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.\")"
+    },
+    {
+      "input": "A large number of brick kilns around Bangalore and Hosur employ bonded and child labour, under the pretext of offering high wages.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"This is under the pretext of offering high wages.\",\"A large number of brick kilns around Bangalore and Hosur employ bonded and child labour.\")"
+    },
+    {
+      "input": "Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers, self-employed workers or daily-wage workers).",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"Unorganised Workers' Social Security Act 2008 was an Act of the Parliament of India enacted to provide for the social security and welfare of the unorganised workers(meaning home-based workers, self-employed workers or daily-wage workers)\")"
+    },
+    {
+      "input": "In Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers (Regulation of Employment and Welfare) Act 1969.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"This was in Maharashtra the mathadis are organised under a welfare board, set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers(Regulation of Employment and Welfare) Act 1969.\",\"The mathadis were set up in compliance to the Maharashtra Hamal, Mathadi and other unprotected workers(Regulation of Employment and Welfare) Act 1969.\")"
+    },
+    {
+      "input": "The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The Occupational Safety, Health And Working Conditions Code, 2020 is a code to consolidate and amend the laws regulating the Occupational safety and health and working conditions of the persons employed in an establishment.\")"
+    },
+    {
+      "input": "The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The Code on Social Security, 2020 is a code to amend and consolidate the laws relating to social security with the goal to extend social security to all employees and workers either in the organised or unorganised or any other sectors.\")"
+    },
+    {
+      "input": "The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The Social Security Code, 2020 brings unorganised sector, gig workers and platform workers under the ambit of social security schemes, including life insurance and disability insurance, health and maternity benefits, provident insurance, pension and skill upgradation, etc.\")"
+    },
+    {
+      "input": "If the punishment is harsh, albeit a lesser punishment may be imposed, but such an order cannot be passed on an irrational or extraneous factor and certainly not on a compassionate ground.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "CO/CONTRAST(\"The punishment is harsh.\", \"SUB/ELABORATION('This was albeit a lesser punishment may be imposed.',', Such an order cannot be passed on an irrational or extraneous factor and certainly not on a compassionate ground.')\")"
+    },
+    {
+      "input": "In Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal (2004) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"This was in Regional Manager, Rajasthan State Road Transport Corporation v Sohan Lal (2004) 8 SCC 218, it has been held that it is not the normal jurisdiction of the superior courts to interfere with the quantum of sentence unless it is wholly disproportionate to the misconduct proved.\",\"The misconduct proved.\")"
+    },
+    {
+      "input": "Huge pension costs over long time raises concerns on fiscal sustainability of the economy and given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "CO/LIST(\"Huge pension costs over long time raises concerns on fiscal sustainability of the economy.\",\"Huge pension costs over long time given the magnitude of the problem, structural alteration in the existing pension scheme would therefore appear to be necessary.\")"
+    },
+    {
+      "input": "The fund is managed by the Employees'State Insurance Corporation ( ESIC ) according to rules and regulations stipulated in the ESI Act 1948.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The fund is managed by the Employees'State Insurance Corporation.\", \"SUB/ELABORATION('This was according to rules and regulations.','Rules and regulations were stipulated in the ESI Act 1948.')\")"
+    },
+    {
+      "input": "Employees'State Insurance Corporation ( ESIC ), established by ESI Act, is an autonomous corporation under Ministry of Labour and Employment, Government of India.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"ESIC was an autonomous corporation under Ministry of Labour and Employment, Government of India.\", \"SUB/ELABORATION('ESIC was established by ESI Act.','ESIC was established by ESI Act.')\")"
+    },
+    {
+      "input": "The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "CO/CONTRAST(\"The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.\",\"The corporation can set up hospitals either independently or in collaboration with state government or other private entities, but most of the dispensaries and hospitals are run by concerned state governments.\")"
+    },
+    {
+      "input": "The employees registered under the scheme are entitled to medical treatment for themselves and their dependents, unemployment cash benefit in certain contingencies and maternity benefit in case of women employees.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"This was for themselves and their dependents.\", \"SUB/ELABORATION('This was in certain contingencies and maternity benefit in case of women employees.','The employees registered under the scheme are entitled to medical treatment.')\")"
+    },
+    {
+      "input": "In case of employment-related disablement or death, there is provision for a disablement benefit and a family pension respectively.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"This is in case of employment-related disablement or death.\", \"CO/LIST('There is provision for a disablement benefit.','There is provision for a family pension respectively.')\")"
+    },
+    {
+      "input": "If the number of employee is below 10, the employer must still pay gratuities.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The number of employee is below 10.\",\"The employer must still pay gratuities.\")"
+    },
+    {
+      "input": "Gratuity shall be payable to an employee on termination of employment after he has rendered continuous service for not less than five years in a single organisation.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"This was on termination of employment.\", \"SUB/ELABORATION('This was after he has rendered continuous service for not less than five years in a single organisation.','Giving shall be payable to an employee.')\")"
+    },
+    {
+      "input": "If over 50 per cent of a company's workers take concerted casual leave, it will be treated as a strike.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"Over 50 per cent of a company's workers take concerted casual leave.\", \"It will be treated as a strike.\")"
+    },
+    {
+      "input": "The Inter-state Migrant Workmen Act's purpose was to protect workers whose services are requisitioned outside their native states in India.",
+      "instruction": "Generate a discourse simplification tree for given legal sentence.",
+      "output": "SUB/ELABORATION(\"The Inter-state Migrant Workmen Act's purpose was to protect workers.\", \"Workers's services are requisitioned outside their native states in India.\")"
+    }
+    
+]
+  

@@ -1,0 +1,27 @@
+[
+    {
+        "input": "A non-resident can open an NPS account, but the account will be closed if the citizenship status of the NRI has been changed.",
+        "instruction": "Generate a discourse simplification tree for given legal sentence.",
+        "output": "CO/CONTRAST(\"A non-resident can open an NPS account.\", \"SUB/ELABORATION('The account will be closed if the citizenship status of the NRI has been changed.','The citizenship status of the NRI has been changed.')\")"
+      },
+      {
+        "input": "National Pension System, like PPF and EPF is an EEE ( Exempt-Exempt-Exempt ) instrument in India where the entire corpus escapes tax at maturity and entire pension withdrawal amount is tax-free.",
+        "instruction": "Generate a discourse simplification tree for given legal sentence.",
+        "output": "SUB/ELABORATION(\"National Pension System is like PPF and EPF.\", \"SUB/ELABORATION('This is in India.',\"SUB/ELABORATION('This is at maturity.','The entire corpus escapes tax at maturity.' ), 'The entire pension withdrawal amount is tax-free.'))\")"
+      },
+      {
+        "input": "NPS started with the decision of the Government of India to stop defined benefit pensions for all its employees who joined after 1 April 2004.",
+        "instruction": "Generate a discourse simplification tree for given legal sentence.",
+        "output": "SUB/ELABORATION(\"NPS started with the decision of the Government of India.\", \"SUB/PURPOSE('This was to stop defined benefit pensions for all its employees.','All its employees joined after 1 April 2004.')\")"
+      },
+      {
+        "input": "While the scheme was initially designed for government employees only, NPS was opened up for all citizens of India between the age of 18 and 65 in 2009, for OCI card holders and PIO's in October 2019.",
+        "instruction": "Generate a discourse simplification tree for given legal sentence.",
+        "output": "SUB/ELABORATION(\"This was for OCI card holders and PIO's in October 2019.\", \"SUB/ELABORATION('This was between the age of 18 and 65.',\"SUB/ELABORATION('This was in 2009.','The scheme was initially designed for government employees only.'))\")"
+      },
+      {
+        "input": "As per the revised norms, any Indian Citizen, resident or non-resident and Overseas Citizen of India ( OCI ) between the age of 65–70 years can join NPS and continue or defer their NPS Account up to the age of 75 years.",
+        "instruction": "Generate a discourse simplification tree for given legal sentence.",
+        "output": "SUB/ELABORATION(\"This is as per the revised norms.\", \"SUB/ELABORATION('This is as per the revised norms.',\"SUB/ELABORATION('This is as per the revised norms.',\"SUB/ELABORATION('This is between the age of 65-70 years.','Any Indian Citizen, resident or non-resident and Overseas Citizen of India, between the age of 65-70 years can join NPS and continue or defer their NPS Account up to the age of 75 years.'))))\")"
+      }
+]

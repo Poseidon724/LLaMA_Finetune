@@ -1,0 +1,1 @@
+This repository contains all the files that I have worked on for the project of finetuning LLMs like LLaMA and mistral for Legal Text Recognition, Classification and Generation of Discourse Trees based on the text.
